@@ -1,9 +1,14 @@
-let x =7
-if (x > 10) {
-  console.log('x is more than 10')
-} else if (x < 5){
-    console.log('x is less than 5')
+let score = 40;
+let result;
+if(score >= 80 && score < 100){
+    result = 'เกรด A';
 }
-else {
-  console.log('x is between 5 and 10')
+if(score >= 60 && score < 80){
+    result = 'เกรด B';
+}if(score >= 50 && score < 60){
+    result = 'เกรด C';
 }
+if(score < 50){
+    result = 'เกรด F';
+}
+console.log(result)
