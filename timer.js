@@ -1,8 +1,6 @@
-waitAndPrint = (message, delay) => {
-    setTimeout(() => {
-        console.log(message);
-    }, delay);
-}
-
-// Example usage:
-waitAndPrint("Hello, world!", 2000);
+waitAndPrint = (message) => {
+  console.log(message);
+};
+setInterval(() => {
+    waitAndPrint("Hello, world!");
+}, 3000);
