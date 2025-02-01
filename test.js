@@ -1,4 +1,4 @@
-let x = 9
+let x = 13
 if (x > 10) {
   console.log('x is more than 10')
 }else {
