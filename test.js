@@ -1,4 +1,4 @@
-console.log('hello world');
-x = 10;
-y = 11;
-console.log(x+y);
+let x = 10
+if (x > 10) {
+  console.log('x is more than 10')
+}
