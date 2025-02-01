@@ -1,3 +1,9 @@
-const multiply = (x,y) => { return x * y }
+const checkNumber = (x, y) => {
+  if (x > y) {
+    return "x greater than y by " + (x - y);
+  } else {
+    return "y greater than x by " + (y - x);
+  }
+};
 
-console.log(multiply(5, 10)) 
+console.log(checkNumber(15, 10));
